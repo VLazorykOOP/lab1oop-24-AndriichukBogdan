@@ -37,6 +37,8 @@ auto FirstTask()
 	for (int i = 0; i < j; i++) {
 		cout << "B[" << i << "]=" << B[i] << endl;
 	}
+	delete [] A;
+	
 
 }
 auto SecondTask()
